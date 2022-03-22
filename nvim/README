@@ -1,0 +1,81 @@
+# Vim config
+
+This is my vim config. I use neovim but this config should work on vim.
+
+# requirements
+
+- nerd font or disable vim-devicons
+- nodejs
+
+# Help section
+
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+" ~ Project: vim-config             ~
+" ~ Author: Thamognya Kodi          ~
+" ~ LICENSE: GPL-3.0                ~
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"
+" \\\\\\\\\\\\\\\\\\//////////////////
+"
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+" ~       help section begin        ~
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+" Shortcuts
+""" Key
+"""" <Leader> = \
+"" <Leader>ls - for live latex preview to start - command :LLPStartPreview
+"" <Leader>op - to convert org to pdf - command :OrgExportToPDF
+"" <Leader>oh - to convert org to html - command :OrgExportToHTML
+"" <Leader>ol - to convert org to latex - command :OrgExportToLaTeX
+"" <Leader>om - to convert org to markdown - command :OrgExportToMarkdown
+"" <Leader>bs - to start bracey server for live html css - command :Bracey
+"" <Leader>bc - to stop bracey server for live html css - command :BraceyStop
+"" <Leader>br - to reload bracey server for live html css - command :BraceyReload
+"" <Leader>ff - telescope - find files - command Telescope find_files
+"" <Leader>fg - telescope - live grep - command Telescope live_grep
+"" <Leader>fb - telescope - buffers - command Telescope buffers
+"" <Leader>fh - telescope - help_tags - command Telescope help_tags
+"" <Leader>ns - nerdtree - command :NERDTree
+"" <Leader>nc - nerdtree toggle - command -NERDTreeToggle
+"" <Leader>bn - buftabline - command :bnext
+"" <Leader>bp - buftabline - command :bprevious
+"" <Leader>bf - buftabline - command :bfirst
+"" <Leader>bl - buftabline - command :blast
+"" <Leader>ww -- Open default wiki index file.
+"" <Leader>wt -- Open default wiki index file in a new tab.
+"" <Leader>ws -- Select and open wiki index file.
+"" <Leader>wd -- Delete wiki file you are in.
+"" <Leader>wr -- Rename wiki file you are in.
+"" <Enter> -- Follow/Create wiki link.
+"" <Shift-Enter> -- Split and follow/create wiki link.
+"" <Ctrl-Enter> -- Vertical split and follow/create wiki link.
+"" <Backspace> -- Go back to parent(previous) wiki link.
+"" <Tab> -- Find next wiki link.
+"" <Shift-Tab> -- Find previous wiki link.
+"" <leader>vh - command :Vimwiki2HTML
+"" <leader>vah - command :VimwikiAll2HTML
+"
+" nvim Lsp installer commands
+"
+"    :LspInstallInfo - opens a graphical overview of your language servers
+"    :LspInstall [--sync] [server] ... - installs/reinstalls language servers. Runs in a blocking fashion if the --sync argument is passed (only recommended for scripting purposes).
+"    :LspUninstall [--sync] <server> ... - uninstalls language servers. Runs in a blocking fashion if the --sync argument is passed (only recommended for scripting purposes).
+"    :LspUninstallAll [--no-confirm] - uninstalls all language servers
+"    :LspInstallLog - opens the log file in a new tab window
+"    :LspPrintInstalled - prints all installed language servers
+"
+"    :LspInstallInfo - opens a graphical overview of your language servers
+"    :LspInstall [--sync] [server] ... - installs/reinstalls language servers. Runs in a blocking fashion if the --sync argument is passed (only recommended for scripting purposes).
+"    :LspUninstall [--sync] <server> ... - uninstalls language servers. Runs in a blocking fashion if the --sync argument is passed (only recommended for scripting purposes).
+"    :LspUninstallAll [--no-confirm] - uninstalls all language servers
+"    :LspInstallLog - opens the log file in a new tab window
+"    :LspPrintInstalled - prints all installed language servers
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+" ~        help section end         ~
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+# Todo
+
+- [ ] write it in lua
