@@ -58,7 +58,7 @@ setxkbmap -option caps:escape &
 
 dwmblocks &
 
-$(picom --experimental-backends --config $HOME/.config/picom/picom.conf) &&
+$(picom --experimental-backends --config /home/jeff/.config/picom/picom.conf) &&
 
 while true; do
     dwm >/dev/null 2>&1
