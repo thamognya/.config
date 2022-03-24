@@ -78,4 +78,4 @@ This is my vim config. I use neovim but this config should work on vim.
 
 # Todo
 
-- [ ] write it in lua
+- [x] write it in lua (in process)
