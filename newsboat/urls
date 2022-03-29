@@ -25,6 +25,18 @@ https://lukesmith.xyz/rss.xml "~Luke Smith: lukesmith.xyz"
 https://notrelated.xyz/rss "~Luke Smith: notrelated.xyz"
 https://landchad.net/rss.xml "~Luke Smith: landchad.net"
 https://based.cooking/rss.xml "~Luke Smith: based.cooking"
--Torrent-
+-Torrent_and_streaming-
 --Nyaa_si__
 https://nyaa.si/?page=rss "~Nyaa Website"
+--gogoanime--
+---sub---
+https://raw.githubusercontent.com/ArjixWasTaken/anime-rss/main/gogoanime/gogoanime-rss-sub.xml
+---dub---
+https://raw.githubusercontent.com/ArjixWasTaken/anime-rss/main/gogoanime/gogoanime-rss-dub.xml
+---chinese---
+https://raw.githubusercontent.com/ArjixWasTaken/anime-rss/main/gogoanime/gogoanime-rss-chinese.xml
+--animepahe--
+https://raw.githubusercontent.com/ArjixWasTaken/anime-rss/main/animepahe/animepahe-rss.xml
+-College-
+--Youtubers--
+https://www.youtube.com/feeds/videos.xml?channel_id=UCh41u10HxdXIZ2lz43cW_OQ "~Cassandra Hsiao: Got Selected To All Ivies"
