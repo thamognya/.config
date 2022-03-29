@@ -30,13 +30,13 @@ https://based.cooking/rss.xml "~Luke Smith: based.cooking"
 https://nyaa.si/?page=rss "~Nyaa Website"
 --gogoanime--
 ---sub---
-https://raw.githubusercontent.com/ArjixWasTaken/anime-rss/main/gogoanime/gogoanime-rss-sub.xml
+https://raw.githubusercontent.com/ArjixWasTaken/anime-rss/main/gogoanime/gogoanime-rss-sub.xml "~gogo anime sub"
 ---dub---
-https://raw.githubusercontent.com/ArjixWasTaken/anime-rss/main/gogoanime/gogoanime-rss-dub.xml
+https://raw.githubusercontent.com/ArjixWasTaken/anime-rss/main/gogoanime/gogoanime-rss-dub.xml "~gogo anime dub"
 ---chinese---
-https://raw.githubusercontent.com/ArjixWasTaken/anime-rss/main/gogoanime/gogoanime-rss-chinese.xml
+https://raw.githubusercontent.com/ArjixWasTaken/anime-rss/main/gogoanime/gogoanime-rss-chinese.xml "~gogo anime chinese"
 --animepahe--
-https://raw.githubusercontent.com/ArjixWasTaken/anime-rss/main/animepahe/animepahe-rss.xml
+https://raw.githubusercontent.com/ArjixWasTaken/anime-rss/main/animepahe/animepahe-rss.xml "~animepahe anime"
 -College-
 --Youtubers--
 https://www.youtube.com/feeds/videos.xml?channel_id=UCh41u10HxdXIZ2lz43cW_OQ "~Cassandra Hsiao: Got Selected To All Ivies"
