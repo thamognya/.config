@@ -19,6 +19,7 @@ alias sll='exa -abghHliS -al'
 alias sls='exa -abghHliS -al'
 alias ssl='exa -abghHliS -al'
 alias gitpushall='git remote | xargs -L1 git push --all'
+alias gpa='git remote | xargs -L1 git push --all'
 alias gitupdatefork='git checkout master && git fetch upstream && git merge upstream/master && git push origin master'
 alias torrent="nordvpn connect switzerland"
 alias nordvpn_c="nordvpn connect united_states los_angeles"

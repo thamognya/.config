@@ -3,6 +3,7 @@ These are my configs, use them if you like them.
 Dependencies
 
 - picom
+- pywal (my fork)
 - nvim
 - ranger 
 - - dragon
