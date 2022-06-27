@@ -1,3 +1,4 @@
+source $HOME/.cache/wal/colors.fish
 set fish_greeting ""
 
 tfetch
