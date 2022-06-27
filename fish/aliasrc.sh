@@ -27,3 +27,5 @@ alias cat="bat"
 alias ytfzf="ytfzf -t"
 alias license="curl -LO https://raw.githubusercontent.com/Thamognya/License/master/AGPL-3.0-or-later/LICENSE.md"
 alias gpau='git add . && git commit -m "$argv" && git remote | xargs -L1 git push --all'
+
+#alias macvnc="ssh -NfL 5900:localhost:5900 jeff@_____ && vncviewer localhost:5900"

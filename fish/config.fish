@@ -14,6 +14,7 @@ set -g theme_hostname always
 
 # aliases
 source (dirname (status --current-filename))/aliasrc.sh
+source (dirname (status --current-filename))/mac.sh
 
 set -gx EDITOR nvim
 
