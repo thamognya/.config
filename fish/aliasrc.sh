@@ -11,6 +11,7 @@ alias vim='nvim'
 alias cpp='exec $HOME/Documents/template/compile-cpp.sh'
 #alias vimtex='exec $HOME/Documents/template/template-tex.sh'
 alias ls='exa -abghHliS -al'
+alias l='exa -abghHliS -al'
 alias sl='exa -abghHliS -al'
 alias lss='exa -abghHliS -al'
 alias lsl='exa -abghHliS -al'
@@ -29,3 +30,4 @@ alias license="curl -LO https://raw.githubusercontent.com/Thamognya/License/mast
 alias gpau='git add . && git commit -m "$argv" && git remote | xargs -L1 git push --all'
 
 #alias macvnc="ssh -NfL 5900:localhost:5900 jeff@_____ && vncviewer localhost:5900"
+#alias macssh="ssh jeff@________-"
