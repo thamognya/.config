@@ -1,9 +1,8 @@
-source $HOME/.cache/wal/colors.fish
 set fish_greeting ""
 
-tfetch
-
 set -gx TERM xterm-256color
+
+neofetch
 
 #vi mode
 fish_vi_key_bindings
@@ -17,13 +16,18 @@ set -g theme_hostname always
 
 # aliases
 source (dirname (status --current-filename))/aliasrc.sh
-source (dirname (status --current-filename))/mac.sh
+source (dirname (status --current-filename))/conda.fish
 
 set -gx EDITOR nvim
 
 set -gx PATH bin $PATH
 set -gx PATH ~/bin $PATH
 set -gx PATH ~/.local/bin $PATH
+set -gx PATH /opt/homebrew/bin $PATH
+set -gx PATH fish_add_path /opt/homebrew/opt/curl/bin $PATH
+set -gx LDFLAGS "-L/opt/homebrew/opt/curl/lib"
+set -gx CPPFLAGS "-I/opt/homebrew/opt/curl/include"
+set -gx PKG_CONFIG_PATH "/opt/homebrew/opt/curl/lib/pkgconfig"
 
 # NodeJS
 set -gx PATH node_modules/.bin $PATH
