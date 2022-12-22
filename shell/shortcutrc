@@ -1,3 +1,0 @@
-# vim: filetype=sh
-alias cac="cd /home/jeff/.cache && ls -a" \
-bf="$EDITOR /home/jeff/.config/shell/bm-files" \

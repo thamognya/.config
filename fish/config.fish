@@ -17,6 +17,7 @@ set -g theme_hostname always
 # aliases
 source (dirname (status --current-filename))/aliasrc.sh
 source (dirname (status --current-filename))/conda.fish
+# source "$HOME/.cargo/env"
 
 set -gx EDITOR nvim
 
@@ -28,6 +29,14 @@ set -gx PATH fish_add_path /opt/homebrew/opt/curl/bin $PATH
 set -gx LDFLAGS "-L/opt/homebrew/opt/curl/lib"
 set -gx CPPFLAGS "-I/opt/homebrew/opt/curl/include"
 set -gx PKG_CONFIG_PATH "/opt/homebrew/opt/curl/lib/pkgconfig"
+set -gx PATH /opt/homebrew/opt/openjdk/bin $PATH
+set -gx CPPFLAGS "-I/opt/homebrew/opt/openjdk/include"
+set -gx PATH $HOME/.cargo/bin $PATH
+set -gx VAGRANT_DEFAULT_PROVIDER qemu $VAGRANT_DEFAULT_PROVIDER
+set -gx PATH /opt/homebrew/opt/postgresql@15/bin $PATH
+set -gx LDFLAGS "-L/opt/homebrew/opt/postgresql@15/lib"
+set -gx CPPFLAGS "-I/opt/homebrew/opt/postgresql@15/include"
+set -gx PKG_CONFIG_PATH "/opt/homebrew/opt/postgresql@15/lib/pkgconfig"
 
 # NodeJS
 set -gx PATH node_modules/.bin $PATH
